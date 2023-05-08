@@ -8,7 +8,7 @@ struct node{
     {
         struct node *new_node,*ptr;
         int value;
-        printf("Enter -1 to eit");
+        printf("Enter -1 to exit\n");
         printf("enter value:");
         scanf("%d",&value);
         while(value!=-1)
