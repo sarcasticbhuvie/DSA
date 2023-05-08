@@ -8,6 +8,7 @@ struct node{
     {
         struct node *new_node,*ptr;
         int value;
+        printf("Enter -1 to eit");
         printf("enter value:");
         scanf("%d",&value);
         while(value!=-1)
@@ -33,6 +34,7 @@ struct node{
         scanf("%d",&value);
         }
         ptr=start;
+        printf("The Given Linked List is:");
         while(ptr!=NULL)
         {
             printf("%d\t",ptr->data);
